@@ -32,7 +32,7 @@ def main():
         label="Mutation Rate (MUT_R)",
         min_value=0.01,
         max_value=0.05,
-        value=0.2,
+        value=0.02,
         step=0.001
     )
 
