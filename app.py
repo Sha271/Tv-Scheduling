@@ -17,7 +17,7 @@ def main():
     st.title("Genetic Algorithm TV Scheduling App")
 
     # Step 1: Input Genetic Algorithm Parameters
-    st.header("Step 1: Input Genetic Algorithm Parameters")
+    st.header("Input your Genetic Algorithm Parameters")
 
     # Input sliders for parameters
     CO_R = st.slider(
@@ -40,7 +40,7 @@ def main():
     st.write(f"**Mutation Rate (MUT_R):** {MUT_R}")
 
     # Step 2: Run Genetic Algorithm and View Schedule
-    st.header("Step 2: Run Genetic Algorithm and View Schedule")
+    st.header("Run Genetic Algorithm and View Schedule")
 
     # Path to the predefined CSV file
     file_path = "/mnt/data/Modified_TV_Scheduling.csv"
