@@ -16,7 +16,7 @@ def main():
     st.title("Genetic Algorithm TV Scheduling App")
 
     # Section 1: Input Genetic Algorithm Parameters
-    st.header("Step 1: Input Genetic Algorithm Parameters")
+    st.header("Input your Genetic Algorithm Parameters")
 
     # Input parameters with default values and ranges
     CO_R = st.slider(
@@ -47,7 +47,7 @@ def main():
     """)
 
     # Section 2: Display Generated Schedule
-    st.header("Step 2: View Generated Schedule")
+    st.header("View Generated Schedule")
 
     # Read the CSV file (Replace with your uploaded file path)
     file_path = "/mnt/data/Modified_TV_Scheduling.csv"
@@ -57,7 +57,7 @@ def main():
     st.dataframe(schedule_df)
 
     st.write("""
-    This table displays the scheduled programs with their respective ratings for each hour.
+    This table displays the scheduled programs with respective ratings for each hour.
     You can adjust the genetic algorithm parameters to generate a new schedule.
     """)
 
