@@ -21,7 +21,8 @@ def read_csv_to_dict(file_path):
 
 ##################################### PARAMETERS AND DATASET ################################################################
 # Sample rating programs dataset for each time slot.
-file_path = "/mnt/data/Modified_TV_Scheduling.csv"
+file_path = "Modified_TV_Scheduling.csv"
+
 program_ratings_dict = read_csv_to_dict(file_path)
 ratings = program_ratings_dict
 
