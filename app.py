@@ -120,7 +120,7 @@ def main():
         label="Crossover Rate (CO_R)",
         min_value=0.0,
         max_value=0.95,
-        value=0.7,
+        value=0.5,
         step=0.01
     )
 
@@ -128,7 +128,7 @@ def main():
         label="Mutation Rate (MUT_R)",
         min_value=0.01,
         max_value=0.05,
-        value=0.03,
+        value=0.05,
         step=0.001
     )
 
